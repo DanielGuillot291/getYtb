@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background: linear-gradient(to right, red, rgb(190, 23, 23), rgb(145, 47, 47), rgb(132, 80, 80));
+}
+
+h1{
+    text-shadow: 1px 1px 2px white;
+}
+
+#lienzo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    margin-top: -100px;
+
+    height: 1000px;
+
+    background-image: url("../Imagenes/Video upload-bro.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+}
+
+form{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px white;
+
+    background-color:rgba(236, 224, 224, 0.9);
+}
+
+#entrada{
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: Consolas;
+}
+
+#boton{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    text-align: center;
+    border-radius: 17px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Consolas;
+}
+
+#estado{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display:flex;
+    text-shadow: 2px 2px 12px black, 2px 2px 10px rgb(255, 0, 0);
+    -webkit-text-stroke: 1px black;
+}
+
+#firma{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#logo{
+    font-family: monospace;
+    color: black;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
