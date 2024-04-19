@@ -11,7 +11,7 @@ function App() {
     try {
       setRes({ estado: 'Descargando...' });
 
-      const response = await fetch("http://localhost:3000/formdata", {
+      const response = await fetch("https://getytb-back.vercel.app/formdata", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

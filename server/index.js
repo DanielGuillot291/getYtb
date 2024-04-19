@@ -12,9 +12,9 @@ const path = require('path');
 var downloadsDir = path.join(require('os').homedir(), 'Downloads');
 console.log(downloadsDir);
 
-app.get("/", (req, res)=>{
-	res.send("API getYtb()");
-})
+app.get('/', (req, res)=>{
+   res.send("Hola mundo"); 
+});
 
 app.post('/formdata', async (req, res)=>{
     const { textInput } = req.body;
