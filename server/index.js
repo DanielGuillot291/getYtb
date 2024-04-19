@@ -13,7 +13,7 @@ var downloadsDir = path.join(require('os').homedir(), 'Downloads');
 console.log(downloadsDir);
 
 app.get('/', (req, res)=>{
-   res.send("Hola mundo"); 
+   res.send("API getYtb()"); 
 });
 
 app.post('/formdata', async (req, res)=>{
