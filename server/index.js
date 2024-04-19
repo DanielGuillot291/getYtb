@@ -16,10 +16,6 @@ app.get('/', (req, res)=>{
    res.send("API getYtb()"); 
 });
 
-app.get('/formdata', (req, res)=>{
-    res.send("Datos..");
-}
-
 app.post('/formdata', async (req, res)=>{
     const { textInput } = req.body;
     console.log("Obteniendo: " + textInput);
