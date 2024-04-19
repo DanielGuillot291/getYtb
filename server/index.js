@@ -17,6 +17,8 @@ app.get('/', (req, res)=>{
 });
 
 app.post('/formdata', async (req, res)=>{
+    res.send("Hola mundo");
+    
     const { textInput } = req.body;
     console.log("Obteniendo: " + textInput);
 
