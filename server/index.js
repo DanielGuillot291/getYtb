@@ -73,7 +73,7 @@ app.post('/formdata', async (req, res)=>{
         downloadAudio(textInput, optionsAudio);
 })
 
-const PUERTO = 3000;
+const PUERTO = process.env.PORT || 3000;
 app.listen(PUERTO,()=>{
     console.log(`Escuchando puerto ${PUERTO}`);
 });
