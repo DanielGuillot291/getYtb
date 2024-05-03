@@ -16,11 +16,11 @@ const path = require('path');
 var downloadsDir = path.join(require('os').homedir(), 'Downloads');
 console.log(downloadsDir);
 
-app.get('/', (req, res)=>{
+app.get('/api/', (req, res)=>{
    res.send("API getYtb()"); 
 });
 
-app.post('/formdata', async (req, res)=>{
+app.post('/api/formdata', async (req, res)=>{
     const { textInput } = req.body;
     console.log("Obteniendo: " + textInput);
 
