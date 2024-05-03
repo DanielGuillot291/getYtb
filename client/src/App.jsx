@@ -34,6 +34,9 @@ function App() {
 
   return ( 
     <div>
+      <Helmet>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data:" />
+      </Helmet>
       <h1 id="logo">getYtb()</h1>
       <div id="lienzo">
         <form onSubmit={handleSubmit(onSubmit)}>
